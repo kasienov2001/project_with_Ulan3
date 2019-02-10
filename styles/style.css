@@ -16,6 +16,9 @@ body {
 	padding: 0 20px;
 	margin: 0 auto;
 }
+.logo-img {
+  width: 100%
+}
 .main-header {
   background: #1c1f21;
 }
@@ -62,6 +65,7 @@ body {
 }
 .bar {
   font-size: 24px;
+  margin: 10px 0;
 }
 .slick-slide img {   
   width: 100%;
@@ -162,6 +166,7 @@ body {
 }
 .footer-bg {
   background: #000;
+  padding-bottom: 30px;
 }
 .footer-icon {
   background: #fff;
@@ -226,6 +231,19 @@ body {
 }
 .adv-soc-icon {
   padding: 8px;
+}
+.scroll-control {
+  justify-content: center;
+  display: flex;
+}
+.scroll-control-arrow {
+  color: #fff;
+  font-size: 70px;
+  margin: 33px 0;
+}
+.scroll-control-back {
+  color: #fff;
+  margin: 61px;
 }
 @media screen and (min-width: 600px) {
   .fa-bars:before {
