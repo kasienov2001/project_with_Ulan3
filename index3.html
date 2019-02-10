@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Start</title>
+</head> 
+<body>
+  <header class="main-header">
+    <div class="container space-between"> 
+      <div class="big-screen-flex">
+        <a href="#" class="logo-link">
+          <img src="content/logo.png" alt="" class="logo-img">
+        </a>
+        <div>
+          <input id="menu-toggle" type="checkbox" class="hidden">
+          <label for="menu-toggle" class="menu-toggle-btn"><i class="fas fa-bars bar"></i></label>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-item"><a href="#" class="menu-link">Потребительский брендинг  </a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Корпоративный брендинг</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Спортивный брендинг</a></li>
+            </ul>
+            <ul class="menu-list">
+              <li class="menu-item"><a href="#" class="menu-link">Продакшн</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Наши клиенты</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Наши контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="language-parent">
+        <a class="lang" href="#">ru</a>
+        <a class="lang" href="#">en</a>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="self-advertisement">
+      <img class="self-ad-img" src="content/Timotei_men.jpg" alt="">
+    </div>
+    <div class="adv-description">
+      <h2 class="adv-col">КРУПЫ КОМПАНИИ <br>ASAN</h2>
+      <div class="adv-text adv-col">
+        <p>Разработка потребительских брендов — компетенция, которую мы развиваем с момента основании компании в 1999 году. Разработка концепций позиционирования Разработка концепций позиционирования и платформ</p>
+        <div class="adv-soc-icons">
+          <a class="adv-soc-link" href="#"><i class="fab fa-google-plus-g adv-soc-icon"></i></a>
+          <a class="adv-soc-link" href="#"><i class="fab fa-facebook-f adv-soc-icon"></i></a>
+          <a class="adv-soc-link" href="#"><i class="fab fa-linkedin-in adv-soc-icon"></i></a>
+          <a class="adv-soc-link" href="#"><i class="fab fa-pinterest-p adv-soc-icon"></i></a>
+          <a class="adv-soc-link" href="#"><i class="fab fa-vk adv-soc-icon"></i></a>
+          <a class="adv-soc-link" href="#"><i class="fab fa-twitter adv-soc-icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="self-advertisement">
+      <img class="self-ad-img" src="content/Sarafanov.jpg" alt="">
+    </div>
+    <p>Разработка потребительских брендов — компетенция, которую мы развиваем с момента основании компании в 1999 году. Разработка концепций позиционирования и платформ</p>
+    <div class="self-advertisement">
+      <img class="self-ad-img" src="content/milk.jpg" alt="">
+    </div>
+    <p>Разработка потребительских брендов — компетенция, которую мы развиваем с момента основании компании в 1999 году. Разработка концепций позиционирования и платформ</p>
+  </div>
+
+  <script src="js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    var scroll = function(){
+      var btn = $('#buttonTop');
+
+      $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass('show');
+        } else {
+          btn.removeClass('show');
+        }
+      });
+
+      btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+      });
+    };
+    scroll();
+  </script>
+</body>
+</html>

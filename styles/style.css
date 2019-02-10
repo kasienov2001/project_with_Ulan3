@@ -180,7 +180,7 @@ body {
 }
 .soc-link {
   text-decoration: none;
-  color: 
+  color: #000;
 }
 .social-media {
   display: flex;
@@ -218,6 +218,15 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.adv-col {
+  width: 100%;
+}
+.adv-soc-link {
+  color: #7d7f80;
+}
+.adv-soc-icon {
+  padding: 8px;
+}
 @media screen and (min-width: 600px) {
   .fa-bars:before {
     display: none;
@@ -237,6 +246,13 @@ body {
   .footer {
     display: flex;
     justify-content: space-between;
+  }
+  .adv-description {
+    display: flex;
+    justify-content: space-between;
+  }
+  .adv-col {
+    width: 50%;
   }
 }
 @media screen and (min-width: 900px) {
