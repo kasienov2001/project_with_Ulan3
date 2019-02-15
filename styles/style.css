@@ -108,12 +108,12 @@ body {
   flex-wrap:  wrap;
   margin-bottom: 6px; 
 }
+.contacts-block,
 .content-block {
-  margin: 6px 0.6% 0 0;
+  margin-top: 6px;
   width: 100%;
   position: relative;
 }
-
 .content-img {
   width: 100%;
   display: block;
@@ -245,6 +245,10 @@ body {
   color: #fff;
   margin: 61px;
 }
+.contacts-block {
+  margin-top: 6px;
+  width: 100%;
+}
 @media screen and (min-width: 600px) {
   .fa-bars:before {
     display: none;
@@ -255,8 +259,14 @@ body {
   .big-screen-flex {
     display: flex;
   }
+  .contacts-block,
   .content-block {
-    width: 49.4%;
+    margin: 6px 0.6% 0 0;
+    width: 49.7%;
+  }
+  .contacts-block:nth-child(2n),
+  .content-block:nth-child(2n) {
+    margin-right: 0;
   }
   .second-menu-col {
     width: 50%;
@@ -275,12 +285,22 @@ body {
 }
 @media screen and (min-width: 900px) {
   .content-block {
+    margin: 6px 0.6% 0 0;
     width: 32.93%;
   }
+  .contacts-block:nth-child(2n),
+  .content-block:nth-child(2n) {
+    margin-right: 0.6%;
+  }
+  .contacts-block:nth-child(4n),
   .content-block:nth-child(3n) {
     margin-right: 0;
   }
   .second-menu-col {
     width: 25%;
+  }
+  .contacts-block {
+    margin: 6px 0.6% 0 0;
+    width: 24.55%;
   }
 }
