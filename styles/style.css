@@ -21,6 +21,7 @@ body {
 }
 .main-header {
   background: #1c1f21;
+  margin-bottom: 10px;
 }
 .menu-link {
   text-decoration: none;
@@ -29,7 +30,7 @@ body {
   display: inline-block;
 }
 .menu-list {
-
+  margin-top: 8px;
 }
 .logo-link {
   display: block;
@@ -37,6 +38,9 @@ body {
 }
 .hidden {
   display: none;
+}
+.carousel-item {
+  
 }
 .menu {
   display: none;
@@ -85,7 +89,7 @@ body {
   border: none;
   font-size: 0px;
   border-radius: 50%;
-  padding: 6px 6px;
+  padding: 5px 5px;
   margin: 0 4px;
   outline: none;
 }
@@ -93,7 +97,7 @@ body {
   outline: none;
 }
 .carousel {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 } 
 .motto {
   background: #81a500;
@@ -110,7 +114,7 @@ body {
 }
 .contacts-block,
 .content-block {
-  margin-top: 6px;
+  margin-top: 10px;
   width: 100%;
   position: relative;
 }
@@ -246,7 +250,7 @@ body {
   margin: 61px;
 }
 .contacts-block {
-  margin-top: 6px;
+  margin-top: 10px;
   width: 100%;
 }
 @media screen and (min-width: 600px) {
@@ -261,7 +265,7 @@ body {
   }
   .contacts-block,
   .content-block {
-    margin: 6px 0.6% 0 0;
+    margin-right: 0.6%;
     width: 49.7%;
   }
   .contacts-block:nth-child(2n),
@@ -285,7 +289,7 @@ body {
 }
 @media screen and (min-width: 900px) {
   .content-block {
-    margin: 6px 0.6% 0 0;
+    margin-right: 0.6%;
     width: 32.93%;
   }
   .contacts-block:nth-child(2n),
@@ -300,7 +304,7 @@ body {
     width: 25%;
   }
   .contacts-block {
-    margin: 6px 0.6% 0 0;
+    margin-right: 0.6%;
     width: 24.55%;
   }
 }
